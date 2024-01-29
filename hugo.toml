@@ -1,4 +1,33 @@
 baseURL = 'https://www.hellsoft.se/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hellsoft / Erik Hellman'
 theme = "hugo-coder"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Erik Hellman"
+  info = "Experienced Software Engineer"
+  description = "Erik Hellman's company for software engineer contracting"
+  keywords = "blog,developer,software,consulting"
+
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon-16x16.png"
+  touchIcon = "/apple-touch-icon.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
