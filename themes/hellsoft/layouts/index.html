@@ -1,0 +1,573 @@
+{{ define "main" }}
+
+  <!-- HERO -->
+  <section class="hero" data-screen-label="01 Hero" style="border-top:none">
+    <div class="shell hero-grid">
+      <div data-reveal>
+        <span class="hero-rotag" data-rotating-tag='["Senior engineer","Tech lead","AI coding coach","Software architect","Staff engineer"]'>Senior engineer</span>
+        <h1 class="hero-title">
+          I ship the hard parts<br/>
+          of <span class="accent">mobile</span>, <span class="accent">embedded</span><br/>
+          and <span class="accent">AI</span>.<span class="cursor"></span>
+        </h1>
+        <p class="hero-sub">
+          I'm Erik Hellman — 25 years of writing the code other people would rather not. I embed in teams that need <strong>Android down to AOSP</strong>, BLE that actually pairs, real&#8209;time streaming that doesn't drop, and mobile apps built natively in <strong>Kotlin and Swift</strong> or cross&#8209;platform with <strong>Compose Multiplatform, React Native, and .NET MAUI</strong>. On the backend I work with <strong>TypeScript/Node.js, Kotlin/Java, C#/.NET, Go, and Rust</strong>. I've worked with <strong>Android Automotive</strong> on both the OEM side and pre&#8209;installed vendor applications. Lately I've been coaching teams on <strong>agentic AI development</strong> (Claude Code, OpenAI Codex) alongside hands-on engineering. I'm equally happy as the senior IC who unblocks the team, or the architect who tells you which three things to stop doing.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="mailto:erik.hellman@hellsoft.se">erik.hellman@hellsoft.se <span class="arr">→</span></a>
+          <a class="btn" href="#services">What I do <span class="arr">↓</span></a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="cell">
+            <div class="k">Based in</div>
+            <div class="v">Stockholm <span class="accent">·</span> SE</div>
+          </div>
+          <div class="cell">
+            <div class="k">Engagement</div>
+            <div class="v">Remote / on&#8209;site</div>
+          </div>
+          <div class="cell">
+            <div class="k">Phone</div>
+            <div class="v"><span class="accent">+46</span> 705 777 477</div>
+          </div>
+        </div>
+      </div>
+
+      <aside data-reveal>
+        <div class="portrait-card">
+          <div class="portrait-frame">
+            <span>PORTRAIT <b>·</b> 01/01</span>
+            <span><b>RAW</b> · 4:5</span>
+          </div>
+          <div class="portrait">
+            <img src="/images/erik.png" alt="Erik Hellman" class="portrait-img">
+            <span class="portrait-tag">ERIK.PNG</span>
+            <div class="portrait-caption">
+              <span><b>ERIK&nbsp;HELLMAN</b></span>
+              <span>F/2.0 · 1/250s</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Ticker -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>
+        Android&nbsp;AOSP <span class="star">✦</span>
+        Android&nbsp;Automotive <span class="star">✦</span>
+        Bluetooth&nbsp;LE <span class="star">✦</span>
+        WebRTC <span class="star">✦</span>
+        IoT &amp; Embedded <span class="star">✦</span>
+        Real&#8209;time&nbsp;streaming <span class="star">✦</span>
+        On&#8209;device&nbsp;AI <span class="star">✦</span>
+        Agentic&nbsp;systems <span class="star">✦</span>
+        Tech&nbsp;leadership <span class="star">✦</span>
+        Software&nbsp;architecture <span class="star">✦</span>
+      </span>
+      <span aria-hidden="true">
+        Android&nbsp;AOSP <span class="star">✦</span>
+        Android&nbsp;Automotive <span class="star">✦</span>
+        Bluetooth&nbsp;LE <span class="star">✦</span>
+        WebRTC <span class="star">✦</span>
+        IoT &amp; Embedded <span class="star">✦</span>
+        Real&#8209;time&nbsp;streaming <span class="star">✦</span>
+        On&#8209;device&nbsp;AI <span class="star">✦</span>
+        Agentic&nbsp;systems <span class="star">✦</span>
+        Tech&nbsp;leadership <span class="star">✦</span>
+        Software&nbsp;architecture <span class="star">✦</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services" data-screen-label="02 Services">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 01 // SERVICES ]</div>
+          <h2 style="font-size:clamp(36px,4.8vw,64px);line-height:.98;letter-spacing:-.03em;margin-top:10px">Hire me as one of four things.</h2>
+        </div>
+        <div class="section-tag" style="text-align:right">Engagements&nbsp;//&nbsp;3–9&nbsp;months&nbsp;typical</div>
+      </header>
+
+      <div class="services-grid" data-reveal>
+        <article class="svc">
+          <div class="svc-num">SVC&nbsp;/&nbsp;01</div>
+          <h3>Senior &amp; Staff Engineer</h3>
+          <p>I embed in your team as the most experienced engineer in the room. I write production code, unblock people, and own the gnarly half of the system nobody else wants to touch. Recent work spans Android Automotive, .NET MAUI, Swift, and backend Kotlin/TypeScript.</p>
+          <div class="svc-foot">
+            <span class="chip">IC</span>
+            <span class="chip">Code-first</span>
+            <span class="chip">Mentorship</span>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-num">SVC&nbsp;/&nbsp;02</div>
+          <h3>Tech Lead &amp; AI Coach</h3>
+          <p>I take a small team from "we have a deadline" to shipping — and show them how to use AI coding agents to move faster without cutting corners. Roadmap, sequencing, design reviews, and coaching on Claude Code / OpenAI Codex workflows.</p>
+          <div class="svc-foot">
+            <span class="chip">Squad of 3–8</span>
+            <span class="chip">AI coaching</span>
+            <span class="chip">Hands-on</span>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-num">SVC&nbsp;/&nbsp;03</div>
+          <h3>Software Architect</h3>
+          <p>I draw the box-and-arrow diagram you can actually build, and stay long enough to prove it works. Strong opinions on what to <i>not</i> do.</p>
+          <div class="svc-foot">
+            <span class="chip">RFCs</span>
+            <span class="chip">Trade-offs</span>
+            <span class="chip">Migrations</span>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-num">SVC&nbsp;/&nbsp;04</div>
+          <h3>Fractional CTO</h3>
+          <p>For founders without a technical co-founder: 1–2 days a week of engineering leadership, vendor wrangling, technical due diligence, and "is this team telling me the truth?"</p>
+          <div class="svc-foot">
+            <span class="chip">Founders</span>
+            <span class="chip">Due&nbsp;diligence</span>
+            <span class="chip">Hiring</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALISMS -->
+  <section id="specialisms" data-screen-label="03 Specialisms">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 02 // SPECIALISMS ]</div>
+        </div>
+      </header>
+
+      <div class="spec-grid">
+        <div class="spec-intro" data-reveal>
+          <h2>Deep stacks,<br/>not buzzwords.</h2>
+          <p>I pick problems where the leaky abstractions actually leak — kernels, radios, GPUs, codecs, model runtimes. That's where I'm worth my rate.</p>
+        </div>
+        <div class="spec-tags" data-reveal>
+          <span class="tag lead"><span class="hash">#</span>Android&nbsp;AOSP</span>
+          <span class="tag lead"><span class="hash">#</span>Android&nbsp;Automotive</span>
+          <span class="tag lead"><span class="hash">#</span>.NET&nbsp;MAUI</span>
+          <span class="tag"><span class="hash">#</span>Kotlin</span>
+          <span class="tag"><span class="hash">#</span>Swift</span>
+          <span class="tag"><span class="hash">#</span>Jetpack&nbsp;Compose</span>
+          <span class="tag"><span class="hash">#</span>Compose&nbsp;Multiplatform</span>
+          <span class="tag"><span class="hash">#</span>TypeScript</span>
+          <span class="tag"><span class="hash">#</span>Node.js</span>
+          <span class="tag"><span class="hash">#</span>HAL&nbsp;/&nbsp;HIDL&nbsp;/&nbsp;AIDL</span>
+          <span class="tag"><span class="hash">#</span>SELinux</span>
+          <span class="tag"><span class="hash">#</span>Yocto</span>
+          <span class="tag"><span class="hash">#</span>Embedded&nbsp;Linux</span>
+          <span class="tag"><span class="hash">#</span>C&nbsp;/&nbsp;C++</span>
+          <span class="tag"><span class="hash">#</span>Rust</span>
+          <span class="tag"><span class="hash">#</span>Bluetooth&nbsp;LE</span>
+          <span class="tag"><span class="hash">#</span>BLE&nbsp;Mesh</span>
+          <span class="tag"><span class="hash">#</span>Wi-Fi&nbsp;Direct</span>
+          <span class="tag"><span class="hash">#</span>WebRTC</span>
+          <span class="tag"><span class="hash">#</span>Low-latency&nbsp;media</span>
+          <span class="tag"><span class="hash">#</span>RTP&nbsp;/&nbsp;SRT</span>
+          <span class="tag"><span class="hash">#</span>GStreamer</span>
+          <span class="tag"><span class="hash">#</span>IoT&nbsp;protocols</span>
+          <span class="tag"><span class="hash">#</span>MQTT&nbsp;/&nbsp;CoAP</span>
+          <span class="tag lead"><span class="hash">#</span>AI&nbsp;coding&nbsp;agents</span>
+          <span class="tag lead"><span class="hash">#</span>On-device&nbsp;AI</span>
+          <span class="tag"><span class="hash">#</span>llama.cpp</span>
+          <span class="tag"><span class="hash">#</span>MLC&nbsp;/&nbsp;ONNX</span>
+          <span class="tag"><span class="hash">#</span>Agentic&nbsp;systems</span>
+          <span class="tag"><span class="hash">#</span>RAG</span>
+          <span class="tag"><span class="hash">#</span>Tool-using&nbsp;LLMs</span>
+          <span class="tag"><span class="hash">#</span>Edge&nbsp;inference</span>
+          <span class="tag"><span class="hash">#</span>Cloud&nbsp;backends</span>
+          <span class="tag"><span class="hash">#</span>Kubernetes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" data-screen-label="04 Work">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 03 // SELECTED WORK ]</div>
+          <h2 style="font-size:clamp(36px,4.8vw,64px);line-height:.98;letter-spacing:-.03em;margin-top:10px">Shipped, not just shipped&#8209;about.</h2>
+        </div>
+        <div class="section-tag" style="text-align:right">Names withheld under NDA<br/>where required.</div>
+      </header>
+
+      <div class="work-list" data-reveal>
+        <article class="work-item">
+          <div class="work-num">01</div>
+          <div>
+            <span class="work-role">Tech Lead / Senior Engineer · Ongoing</span>
+            <h3>Arrive — Android Automotive infotainment</h3>
+          </div>
+          <div class="work-desc">Tech lead and AI coding coach for Arrive's (formerly EasyPark) upcoming in-car infotainment systems. Android Automotive client development, backend in Kotlin and Node.js/TypeScript. Coaching dev teams on Claude Code and agentic AI workflows.</div>
+          <div class="work-meta">2026&#8211;now<br/><b>AAOS · KOTLIN · AI COACHING</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">02</div>
+          <div>
+            <span class="work-role">System Architect & Tech Lead · Ongoing</span>
+            <h3>Bauer Media — Sales tools platform</h3>
+          </div>
+          <div class="work-desc">Responsible for system design and architecture for new sales tools for Bauer Media's sales staff. Deep UX research to identify pain points and improvements for the sales process of advertisement spots on radio.</div>
+          <div class="work-meta">2024&#8211;now<br/><b>ARCHITECTURE · UX RESEARCH · SALES TOOLS</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">03</div>
+          <div>
+            <span class="work-role">Tech Lead & Software Architect · 18 months</span>
+            <h3>KTM / Pierer Innovation — Motorcycle infotainment</h3>
+          </div>
+          <div class="work-desc">Tech lead and software architect for a greenfield Android Automotive project developing the next-generation infotainment for motorcycles. Advanced Bluetooth integration, WebRTC streaming, Android Automotive, and AOSP integration.</div>
+          <div class="work-meta">2023&#8211;2024<br/><b>AAOS · WEBRTC · BLUETOOTH · MOTORCYCLES</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">04</div>
+          <div>
+            <span class="work-role">Senior Engineer · 4 months</span>
+            <h3>Oura — Smart ring connectivity</h3>
+          </div>
+          <div class="work-desc">Deep Android system engineering to improve connectivity between the Oura smart ring and the Android app. BLE stack optimisation, bonding reliability, and power management for a health-tech wearable used by athletes and sleep researchers.</div>
+          <div class="work-meta">2025<br/><b>ANDROID · BLE · HEALTH-TECH</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">05</div>
+          <div>
+            <span class="work-role">Mobile Specialist / Senior Engineer · Ongoing</span>
+            <h3>AddSecure — AddView safety alarm platform</h3>
+          </div>
+          <div class="work-desc">Building advanced features for the AddView safety alarm product. Deep work in .NET MAUI, Bluetooth Low Energy, geofencing, and positioning technologies on Android and iOS. Making safety tech that actually works in the field.</div>
+          <div class="work-meta">2026&#8211;now<br/><b>.NET MAUI · BLE · MOBILE</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">06</div>
+          <div>
+            <span class="work-role">Senior Engineer · 14 months</span>
+            <h3>Husqvarna — Automower Connect platform</h3>
+          </div>
+          <div class="work-desc">Senior engineer on the Husqvarna mobile apps and backend. Advanced BLE protocol integration for robotic lawn mowers, backend development in Java/Kotlin and TypeScript. Introduced Compose Multiplatform for next-gen cross-platform apps. Also worked on iOS in Swift.</div>
+          <div class="work-meta">2024&#8211;2025<br/><b>BLE · COMPOSE MULTIPLATFORM · SWIFT</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">07</div>
+          <div>
+            <span class="work-role">Technical Consultant · Ongoing</span>
+            <h3>Safeline — IoT & VoIP for elevator safety</h3>
+          </div>
+          <div class="work-desc">Developing a prototype for a VoIP solution based on React, WebRTC, Rust, and Embedded Linux. Organizing workshops and acting as tech advisory for IoT solutions in elevator safety products. Technologies include embedded Linux, WebRTC, SIP, SCAIP, and backend integration in C#/.NET.</div>
+          <div class="work-meta">2023&#8211;now<br/><b>WEBRTC · EMBEDDED LINUX · IOT · ELEVATOR SAFETY</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">08</div>
+          <div>
+            <span class="work-role">Tech Lead / CTO · 12 months</span>
+            <h3>AP Records — Product for record labels</h3>
+          </div>
+          <div class="work-desc">Bootstrapping and leading the development of a new product for record labels. Defining requirements, SCRUM setup, interviewing developer candidates and defining overall architecture. System built as a full-stack Node.js system running on AWS.</div>
+          <div class="work-meta">2020&#8211;2021<br/><b>NODE.JS · AWS · FULL-STACK · RECORD LABELS</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-num">09</div>
+          <div>
+            <span class="work-role">Senior Android Consultant · 16 months</span>
+            <h3>ICA Sverige — Next-gen mobile & self-scanning</h3>
+          </div>
+          <div class="work-desc">Implementing the next generation of mobile solutions for ICA Sverige. This included all mobile apps for Android and the next-generation solution for in-store self-scanning. Worked on the overall system architecture as well as implementing the applications.</div>
+          <div class="work-meta">2017&#8211;2018<br/><b>ANDROID · SELF-SCANNING · RETAIL · ARCHITECTURE</b></div>
+          <div class="work-arrow">↗</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPEN SOURCE -->
+  <section id="oss" data-screen-label="05 Open source">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 04 // OPEN SOURCE ]</div>
+          <h2 style="font-size:clamp(36px,4.8vw,64px);line-height:.98;letter-spacing:-.03em;margin-top:10px">I think out loud in public.</h2>
+        </div>
+        <a class="section-tag" style="text-align:right" href="https://github.com/ErikHellman" target="_blank" rel="noopener">github.com/ErikHellman ↗</a>
+      </header>
+
+      <div class="oss-grid" data-reveal>
+        <a class="oss" href="http://github.com/ErikHellman/txt" target="_blank" rel="noopener">
+          <div class="oss-head">
+            <span><span class="lang"><span class="dot"></span>Kotlin</span></span>
+            <span>PUBLIC · MIT</span>
+          </div>
+          <h3><span class="slash">/</span>txt</h3>
+          <p>A tiny terminal-first text editor. Built because every existing answer was either too small or a 200MB Electron app.</p>
+          <div class="oss-foot">
+            <span>★ Read more</span>
+            <span>github ↗</span>
+          </div>
+        </a>
+
+        <a class="oss" href="https://github.com/ErikHellman/willys-agent" target="_blank" rel="noopener">
+          <div class="oss-head">
+            <span><span class="lang"><span class="dot"></span>TypeScript</span></span>
+            <span>PUBLIC · MIT</span>
+          </div>
+          <h3><span class="slash">/</span>willys-agent</h3>
+          <p>An agent that does my weekly grocery order at Willys. Real-world demonstration of how to build a small, reliable tool-using LLM agent that earns its keep.</p>
+          <div class="oss-foot">
+            <span>★ Read more</span>
+            <span>github ↗</span>
+          </div>
+        </a>
+
+        <a class="oss" href="https://github.com/ErikHellman/food-shopping-agent" target="_blank" rel="noopener">
+          <div class="oss-head">
+            <span><span class="lang"><span class="dot"></span>TypeScript</span></span>
+            <span>PUBLIC · MIT</span>
+          </div>
+          <h3><span class="slash">/</span>food-shopping-agent</h3>
+          <p>A generalised food shopping agent. Extends the Willys agent pattern to other stores and workflows — a sandbox for reliable LLM tool use.</p>
+          <div class="oss-foot">
+            <span>★ Read more</span>
+            <span>github ↗</span>
+          </div>
+        </a>
+
+        <a class="oss" href="https://github.com/ErikHellman/cli-for-android" target="_blank" rel="noopener">
+          <div class="oss-head">
+            <span><span class="lang"><span class="dot"></span>Kotlin</span></span>
+            <span>PUBLIC · MIT</span>
+          </div>
+          <h3><span class="slash">/</span>cli-for-android</h3>
+          <p>Command-line utilities for Android development. A collection of scripts and tools that make AOSP and everyday Android engineering less painful.</p>
+          <div class="oss-foot">
+            <span>★ Read more</span>
+            <span>github ↗</span>
+          </div>
+        </a>
+
+        <a class="oss" href="https://github.com/kolplattformen/skolplattformen" target="_blank" rel="noopener">
+          <div class="oss-head">
+            <span><span class="lang"><span class="dot"></span>TypeScript</span></span>
+            <span>PUBLIC · MIT</span>
+          </div>
+          <h3><span class="slash">/</span>skolplattformen</h3>
+          <p>Öppna Skolplattformen — the open-source alternative app for Stockholm public schools. Featured in <i>Wired</i> (Aug 2021). A civic-tech project that reverse-engineered a closed platform to give parents access to their children's school data.</p>
+          <div class="oss-foot">
+            <span>★ Read more</span>
+            <span>github ↗</span>
+          </div>
+        </a>
+      </div>
+
+      <div style="margin-top:20px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">
+        &nbsp;+ Awarded <strong>Årets Frilansare 2023</strong> (Developer Days). Patent holder for distributed music sync (US20130198264).
+      </div>
+    </div>
+  </section>
+
+  <!-- SPEAKING & WRITING — hidden
+  <section id="speaking" data-screen-label="06 Speaking">
+    <div class="shell">
+      <header class="section-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 05 // SPEAKING + WRITING ]</div>
+          <h2 style="font-size:clamp(36px,4.8vw,64px);line-height:.98;letter-spacing:-.03em;margin-top:10px">Where I've been&nbsp;loud.</h2>
+        </div>
+        <div class="section-tag" style="text-align:right">Selected · last 24 months</div>
+      </header>
+
+      <div class="speaking" data-reveal>
+        <div>
+          <p style="color:var(--muted);max-width:34ch">I've been talking at Android and embedded conferences since before Kotlin existed. <strong>Google Developer Expert</strong> for Android. Awarded <strong>Årets Frilansare</strong> (Freelancer of the Year) at Developer Days 2023. Author of <i>Android Programming&nbsp;— Pushing the Limits</i> (Wiley, 2013) and <i>Android Recipes</i> (Apress, 2017). Available for keynotes, workshops, and team coaching.</p>
+          <div style="margin-top:24px">
+            <a class="btn" href="mailto:erik.hellman@hellsoft.se?subject=Speaking%20enquiry">Speaking enquiries <span class="arr">↗</span></a>
+          </div>
+        </div>
+
+        <div class="speak-list">
+          <div class="speak-item">
+            <span class="date">2026 · MAY</span>
+            <span class="title"><b>KEYNOTE</b>Building agents that work offline · Øredev</span>
+            <span class="venue">Malmö, SE</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2025 · NOV</span>
+            <span class="title"><b>TALK</b>On-device LLMs are finally good enough · Droidcon&nbsp;London</span>
+            <span class="venue">London, UK</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2025 · OCT</span>
+            <span class="title"><b>WORKSHOP</b>AOSP bring-up from zero · Embedded Linux Conf</span>
+            <span class="venue">Prague, CZ</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2025 · JUN</span>
+            <span class="title"><b>TALK</b>Android Automotive without losing your sanity · Droidcon&nbsp;Berlin</span>
+            <span class="venue">Berlin, DE</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2024 · NOV</span>
+            <span class="title"><b>PODCAST</b>Fragmented · Episode #311 — on agents and edge</span>
+            <span class="venue">Remote</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2024 · SEP</span>
+            <span class="title"><b>TALK</b>WebRTC at scale, the parts that bite · Strange&nbsp;Loop</span>
+            <span class="venue">St Louis, US</span>
+          </div>
+          <div class="speak-item">
+            <span class="date">2024 · MAY</span>
+            <span class="title"><b>KEYNOTE</b>Twenty years of writing Android · Droidcon Stockholm</span>
+            <span class="venue">Stockholm, SE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- LOG / BLOG — hidden
+  <section id="log" data-screen-label="06 Engineering log">
+    <div class="shell">
+      <div class="log-head" data-reveal>
+        <div>
+          <div class="section-tag">[ 05 // ENGINEERING LOG ]</div>
+          <h2>Notes from inside the build.</h2>
+        </div>
+        <p>Short, dated, sometimes code-heavy. No "10 reasons" listicles. The log is where I think through whatever I'm currently fighting&nbsp;with.</p>
+      </div>
+
+      <div class="log" data-reveal>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 05 · 11</span>
+          <span class="log-id">#042</span>
+          <span class="log-title">A small, mean LLM agent that does the weekly groceries</span>
+          <span class="log-tags"><span class="t">agents</span><span class="t">on-device</span><span class="t">kotlin</span></span>
+          <span class="log-len">14 min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 04 · 28</span>
+          <span class="log-id">#041</span>
+          <span class="log-title">Why your Android Automotive cold-boot is slow (and one chart you'll wish you had)</span>
+          <span class="log-tags"><span class="t">aaos</span><span class="t">perf</span></span>
+          <span class="log-len">22 min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 04 · 03</span>
+          <span class="log-id">#040</span>
+          <span class="log-title">Quantising a 7B model down to a phone — what's actually lost</span>
+          <span class="log-tags"><span class="t">llm</span><span class="t">quantisation</span><span class="t">edge</span></span>
+          <span class="log-len">18 min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 03 · 17</span>
+          <span class="log-id">#039</span>
+          <span class="log-title">SELinux denial of the week, episode 12: vendor partition edition</span>
+          <span class="log-tags"><span class="t">aosp</span><span class="t">selinux</span></span>
+          <span class="log-len">9 min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 02 · 22</span>
+          <span class="log-id">#038</span>
+          <span class="log-title">BLE pairing on Android 14 is finally not embarrassing</span>
+          <span class="log-tags"><span class="t">bluetooth</span><span class="t">android</span></span>
+          <span class="log-len">11 min</span>
+        </a>
+        <a class="log-row draft" href="#">
+          <span class="log-date">2026 · 02 · ??</span>
+          <span class="log-id">#037</span>
+          <span class="log-title">A field guide to writing your first AIDL</span>
+          <span class="log-tags"><span class="t">aosp</span><span class="t">aidl</span></span>
+          <span class="log-len">~ min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 01 · 30</span>
+          <span class="log-id">#036</span>
+          <span class="log-title">WebRTC simulcast: the layer you didn't know was costing you 40% bitrate</span>
+          <span class="log-tags"><span class="t">webrtc</span><span class="t">media</span></span>
+          <span class="log-len">16 min</span>
+        </a>
+        <a class="log-row" href="#">
+          <span class="log-date">2026 · 01 · 09</span>
+          <span class="log-id">#035</span>
+          <span class="log-title">Rust on the embedded side of an Android product — a year on</span>
+          <span class="log-tags"><span class="t">rust</span><span class="t">embedded</span></span>
+          <span class="log-len">19 min</span>
+        </a>
+      </div>
+
+      <div style="margin-top:28px;display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">
+        <span>Showing 8 of 42 entries</span>
+        <a href="#" style="color:var(--ink)">All entries ↗</a>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact" data-screen-label="05 Contact">
+    <div class="shell">
+      <div data-reveal>
+        <div class="section-tag" style="color:rgba(239,236,227,.55)">[ 05 // GET&nbsp;IN&nbsp;TOUCH ]</div>
+        <h2 style="margin-top:14px">
+          Got a hard problem<br/>and a real deadline?<br/>
+          <span class="accent">Send the email.</span>
+        </h2>
+        <p class="lead">No discovery form, no AI chatbot, no calendar Tetris until I've actually read what you're working on. A few honest paragraphs is enough — I'll write back within a couple of working days.</p>
+      </div>
+
+      <div class="contact-grid" data-reveal>
+        <a class="contact-mail" href="mailto:erik.hellman@hellsoft.se">
+          erik.hellman@hellsoft.se <span class="arr">↗</span>
+        </a>
+
+        <div class="contact-meta">
+          <dl>
+            <dt>Company</dt><dd>Hellman Software&nbsp;AB</dd>
+            <dt>Phone</dt><dd>+46 705 777 477</dd>
+            <dt>Base</dt><dd>Stockholm <span class="accent">·</span> SE</dd>
+            <dt>LinkedIn</dt><dd><a style="color:inherit;text-decoration:underline;text-decoration-color:var(--accent)" href="https://www.linkedin.com/in/erik-hellman/" target="_blank" rel="noopener">/in/erik-hellman</a></dd>
+            <dt>GitHub</dt><dd><a style="color:inherit;text-decoration:underline;text-decoration-color:var(--accent)" href="https://github.com/ErikHellman" target="_blank" rel="noopener">@ErikHellman</a></dd>
+            <dt>Status</dt><dd><span class="accent">●</span> Currently engaged</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="shell foot-row">
+      <span>© 2010–2026 Hellman&nbsp;Software&nbsp;AB</span>
+      <span class="center"><span class="mark"></span></span>
+      <span class="right">Built in Stockholm · v.&nbsp;2026.05</span>
+    </div>
+  </footer>
+
+{{ end }}
