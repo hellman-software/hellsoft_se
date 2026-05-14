@@ -1,0 +1,13 @@
+baseURL = 'https://hellsoft.se'
+locale = 'en-gb'
+title = 'Hellsoft — Erik Hellman / Senior software engineering'
+theme = 'hellsoft'
+
+[params]
+  description = "Senior, staff, tech-lead and fractional-CTO engagements. Specialising in mobile, embedded, IoT, real-time streaming, Android (AOSP & Automotive) and on-device AI."
+  author = "Erik Hellman"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

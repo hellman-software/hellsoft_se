@@ -1,0 +1,13 @@
+name = "Hellsoft"
+license = "MIT"
+licenselink = ""
+description = "Brutalist-technical portfolio theme for Hellsoft.se"
+homepage = "https://hellsoft.se"
+demosite = "https://hellsoft.se"
+tags = ["portfolio", "minimal", "brutalist"]
+features = ["responsive", "dark-mode"]
+min_version = "0.120.0"
+
+[author]
+  name = "Erik Hellman"
+  homepage = "https://hellsoft.se"
