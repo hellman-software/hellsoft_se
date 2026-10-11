@@ -1,6 +1,7 @@
 {{ define "main" }}
-<article class="shell" style="padding: var(--section-pad-y) 0;">
+<article class="shell prose" style="padding: var(--section-pad-y) 0;">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 </article>
+{{ partial "footer.html" . }}
 {{ end }}

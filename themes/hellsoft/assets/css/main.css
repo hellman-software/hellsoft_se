@@ -967,3 +967,53 @@ h1.hero-title .cursor {
   .foot-row { grid-template-columns: 1fr; gap: 8px; text-align: center; padding: 16px 0; }
   .foot-row .right { text-align: center; }
 }
+
+/* ─── Prose pages (privacy etc.) ───────────────────────────────────────── */
+
+.prose { max-width: 72ch; }
+.prose h1 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: var(--rhythm);
+}
+.prose h2 {
+  font-size: 20px;
+  margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
+  padding-top: var(--rhythm);
+  border-top: 1.5px solid var(--rule);
+}
+.prose h3 {
+  font-size: 15px;
+  margin: calc(var(--rhythm) * 1.5) 0 calc(var(--rhythm) / 2);
+}
+.prose p,
+.prose ul,
+.prose table { margin: 0 0 var(--rhythm); }
+.prose ul { padding-left: 1.25em; }
+.prose li { margin-bottom: calc(var(--rhythm) / 3); }
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 2px;
+}
+.prose a:hover { color: var(--accent); }
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.prose th,
+.prose td {
+  text-align: left;
+  padding: 10px 12px 10px 0;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+.prose th {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.foot-link { text-decoration: underline; text-decoration-color: var(--accent); }
+.foot-link:hover { color: var(--ink); }
