@@ -1,6 +1,6 @@
 # Hellsoft
 
-A static, English-language website for Erik Hellman’s fractional CTO, AI adoption, mentoring, and workshop work. There is no framework, backend, dependency installation, analytics, or advertising.
+A static, English-language website for Erik Hellman’s fractional CTO, AI adoption, mentoring, and workshop work. There is no framework, backend, dependency installation, or advertising. Website usage statistics are provided by Plausible Analytics without analytics cookies.
 
 ## Local preview
 
@@ -45,6 +45,7 @@ Only the allowlisted files in `scripts/build.mjs` enter the public artifact. Sou
 - Edit homepage content, contact links, social metadata, and structured data in `index.html`.
 - Edit the palette, typography, layout, and responsive rules in `styles.css`. All fonts are system fonts, with no external font requests.
 - `script.js` only enhances mobile navigation. Without JavaScript, the navigation and all content remain available.
+- Both HTML pages include the Plausible integration snippet supplied for hellsoft.se. Keep the script URL and initialisation in sync if the integration changes; no additional event instrumentation is included.
 - Edit the policy in `privacy/index.html`. Its existing wording is retained, with the font disclosure scoped to sites that use external fonts and the revision date updated. The policy also covers other Hellsoft subdomains.
 - Public assets are under `assets/`. The original portrait is retained as `assets/images/erik.png`; the page uses the smaller JPEG encoding of the same picture. Project illustrations are decorative HTML/CSS/SVG artwork, not product screenshots.
 - If the domain or routes change, update the canonical URLs, social URLs, JSON-LD, `sitemap.xml`, and `robots.txt` together.
