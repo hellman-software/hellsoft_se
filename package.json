@@ -1,0 +1,16 @@
+{
+  "name": "hellsoft-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Erik Hellman’s static advisory and AI adoption website.",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "check": "node --check script.js && node --check scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

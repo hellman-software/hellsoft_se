@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "hugo",
-      "runtimeExecutable": "hugo",
-      "runtimeArgs": ["server", "--port", "1313", "--disableFastRender"],
-      "port": 1313
+      "name": "hellsoft",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4173", "--bind", "127.0.0.1"],
+      "port": 4173
     }
   ]
 }
